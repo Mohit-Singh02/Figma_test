@@ -88,10 +88,9 @@ button {
 .Logo_container>h2 {
     width: 249px;
     height: 80px;
-    top: 127px;
+    top: 120px;
     left: 596px;
-    gap: 0px;
-    opacity: 0px;
+ 
     color: rgba(255, 255, 255, 1);
 
     font-family: DM Serif Display;
@@ -253,7 +252,7 @@ position:absolute;
 .your_button>button{
     width: 170px;
 height: 48px;
-
+border-radius: 3px;
 border-radius: 5px 0px 0px 0px;
 border: 1px 0px 0px 0px;
 
@@ -371,8 +370,9 @@ position: relative;
 }
 .social_icon{
 bottom: 39px;
-left:15px;
+left:16px;
 position: relative;
+cursor: pointer;
 }
 
 
@@ -426,17 +426,18 @@ border: 1px 0px 0px 0px;
 opacity: 0px;
 border: 1px solid rgba(218, 218, 218, 1);
 position: relative;
+border-radius: 3px;
 }
 
 .last_container>::placeholder{
 width: 40px;
 height: 24px;
-top: 41px;
-left: 16px;
 
- 
+left: 10px;
+
+ position: relative;
 font-family: DM Sans;
-font-size: 16px;
+font-size: 15px;
 line-height: 24px;
 text-align: left;
 
@@ -445,7 +446,7 @@ text-align: left;
 .last_container>button{
     width:300px;
 height: 48px;
-
+border-radius: 3px;
 top: 30px;
 left: 770px;
 border: none;
@@ -456,4 +457,5 @@ line-height: 24px;
 text-align: center;
 color: white;
 position: relative;
+cursor: pointer;
 }
